@@ -121,7 +121,7 @@ export default {
         @include border-radius(6px);
         padding: 0 40px 0 30px;
         height: 50px;
-        background: white url("../../../assets/angle-arrow-down.png") no-repeat bottom 50% right 20px;
+        background: white url("../../../assets/angle-arrow-down.png") no-repeat bottom 50% right 6.25%;
         cursor: pointer;
         white-space: nowrap;
 
@@ -130,7 +130,7 @@ export default {
         border: 1px solid #EAEAEA;
         color: #CBCBCB;
         pointer-events: none;
-        background: white url("../../../assets/angle-arrow-down-disabled.png") no-repeat bottom 50% right 20px ;
+        background: white url("../../../assets/angle-arrow-down-disabled.png") no-repeat bottom 50% right 6.25% ;
     }
     .title {
         display: inline-block;
